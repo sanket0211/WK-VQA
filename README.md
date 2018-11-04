@@ -18,11 +18,20 @@ Please download the slides here [slides link](#)
 
 ### DATASET
 
-Please [click here] to download the dataset WK-VQA
+Please [click here](#) to download the dataset WK-VQA
 
 
 ```markdown
-Syntax highlighted code block
+The following files and folders can be found in the dataset
+
+1. WK-VQA-1.0
+- Folder 1: WK-VQA_images
+- Folder 2: WK-VQA_reference_images
+- File 1: dataset.json
+a. ImgId:{
+	'NamedEntities': A list of named entities present in the image, 
+	'Qids': Corresponding of Qids
+}
 
 # Header 1
 ## Header 2
