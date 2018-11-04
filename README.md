@@ -1,12 +1,25 @@
-## Welcome to GitHub Pages
+## Abstract
 
-You can use the [editor on GitHub](https://github.com/sanket0211/WK-VQA/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Visual Question Answering (VQA) has emerged as an important Computer Vision task. In conventional VQA, one may ask questions about an image which can be answered purely based on its content. For example, given an image with people in it, a typical VQA question may inquire about the number of people in the image. More recently, there is growing interest in answering questions which require commonsense knowledge involving common nouns (e.g., cats, dogs, microphones.) present in the image. In spite of this progress, the important problem of answering questions requiring world knowledge about named entities (e.g., Barack Obama, White House.) in the image has not been addressed in prior research. We address this gap in this paper, and introduce WK-VQA – the first dataset for the task of World Knowledge-enabled VQA. WK-VQA consists of 193K question-answer pairs involving more than 19K named entities and 25K images. Questions in this dataset require multi-entity, multi-relation, and multi-hop reasoning over large Knowledge Graphs (KG) to arrive at an answer. To the best of our knowledge, WKVQA is the largest dataset for exploring VQA over KG. Further, we also provide baseline performances using state-ofthe-art methods for world knowledge-enabled VQA on WKVQA. We firmly believe that WK-VQA will spawn new avenues of research spanning the areas of vision, language, knowledge graphs, and more broadly AI.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### CODE
 
-### Markdown
+Github Repository of code [repo link](#)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### PAPER
+
+Please download the paper here [paper link](#)
+
+### AAAI 2019 SLIDES
+
+Please download the slides here [slides link](#)
+
+### BIBTEX
+
+### DATASET
+
+Please [click here] to download the dataset WK-VQA
+
 
 ```markdown
 Syntax highlighted code block
@@ -26,12 +39,3 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sanket0211/WK-VQA/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
