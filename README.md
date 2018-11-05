@@ -27,23 +27,20 @@ The following files and folders can be found in the dataset
 1. WK-VQA-1.0
 - Folder 1: WK-VQA_images
 - Folder 2: WK-VQA_reference_images
-- File 1: dataset.json
-a. ImgId:{
-	'NamedEntities': A list of named entities present in the image, 
-	'Qids': Corresponding of Qids
+- File 1: dataset.json which contains the following
+{
+	ImgId:{
+		'NamedEntities': A list of named entities present in the image, 
+		'Qids': Corresponding of Qids,
+		'wikiCap': Wiki Caption associated with the image,
+		'Questions': A list of questions associated with the image,
+		'Answers': A list of answers to the questions,
+		'ParaQuestions': Paraphrase version of the questions,
+		'Type of Question': A list of tags like Boolean, Spatial, etc for each question,
+		'sourcePath': URL from where the image has been downloaded
+	}
 }
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
 ```
